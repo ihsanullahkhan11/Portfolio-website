@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./Ihsan portfolio.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>HOME</title>
 
    <style>
     table, th, td{
@@ -14,6 +15,14 @@
 
     }
    </style>
+
+<script>
+  // JavaScript function to play the sound
+  function playSound() {
+    var sound = document.getElementById("mySound");
+    sound.play();
+  }
+  </script>
 </head>
 <body>
   <nav> <button> <a href="./index.html">Home</a></button>
@@ -24,8 +33,23 @@
    
  <section>
   <img src="./image/ihsan-jpg" alt="" width="200px">
-  <h1>IHSAN ULLAH KHAN</h1> 
-  <audio src="hi ihsan" controls></audio> <br> <br> 
+  <H1>IHSAN ULLAH KHAN
+
+    
+    <!-- Audio element with a sound file -->
+    <audio id="mySound">
+      <source src="./hi ihsan" type="audio/mp3">
+      
+    </audio>
+    
+    <!-- Button to play the sound -->
+    <img src="./speaker.png" onclick="playSound()" width="25">
+
+  </H1>
+
+
+  
+   
   <P>My  Name is  <strong>IHSAN ULLAH KHAN</strong>
        I am from sadda distric kurram I
 currently studying BS information tecnology </P> <hr>
