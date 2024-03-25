@@ -4,17 +4,9 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="x-icon" href="./Ihsan portfolio.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>HOME</title>
 
-   <style>
-    table, th, td{
-      border: solid;
-      color: black;
-      border-collapse: collapse;
-      
-
-    }
-   </style>
 
 <script>
   // JavaScript function to play the sound
@@ -25,86 +17,104 @@
   </script>
 </head>
 <body>
-  <nav> <button> <a href="./index.html">Home</a></button>
-    <button><a href="./Projects Page/index.html">Project</a></button>
-    <button><a href="./Skills Page/index.html">Skills</a></button>
-    <button> <a href="./contact page/index.html">Contact</a></button></nav>   <hr>
+  <nav> <button> <a href="./index.html" class="nav">Home</a></button> &nbsp;&nbsp;
+    <button><a href="./Projects Page/index.html" class="nav">Project</a></button>&nbsp;&nbsp;
+    <button><a href="./Skills Page/index.html" class="nav">Skills</a></button>&nbsp;&nbsp;
+    <button> <a href="./contact page/index.html" class="nav">Contact</a></button></nav>   <hr>
  
    
  <section>
-  <img src="./image/ihsan-jpg" alt="" width="200px">
-  <H1>IHSAN ULLAH KHAN
+  <img src="./image/ihsan1.jpg" alt="" id="ihsan1" width="300px">
+
+
+  <!-- <h1  id="name">IHSAN ULLAH KHAN
 
     
-    <!-- Audio element with a sound file -->
+  
     <audio id="mySound">
-      <source src="./hi ihsan" type="audio/mp3">
+      <source src="./hi  ihsan.unknown" type="audio/mp3">
       
     </audio>
     
-    <!-- Button to play the sound -->
+    
     <img src="./speaker.png" onclick="playSound()" width="25">
 
-  </H1>
+  </h1> -->
 
 
   
-   
-  <P>My  Name is  <strong>IHSAN ULLAH KHAN</strong>
-       I am from sadda distric kurram I
-currently studying BS information tecnology </P> <hr>
-<h1>Eduction</h1>
-</section>
+  <div class="intro-about">
+    <P class="intro">My  Name is <br> <br> 
+      <strong class="name">IHSAN ULLAH KHAN</strong> <audio id="mySound">
+        <source src="./hi  ihsan.unknown" type="audio/mp3">
+        
+      </audio>
+      
+      <!-- Button to play the sound -->
+      <img src="./speaker.png" onclick="playSound()" width="25">
+  
+       <br><br>
+         I am from sadda distric kurram  <br> <br>I
+  currently studying BS information tecnology <br><br>
+  I am web and App Developer </P> 
+  </div> 
 
-    
-   
 
 
-<table>
-  <!-- ye first row ha heading wala -->
+
+
+<div class="Eduction">
+  <hr>
+<b><p class="Eduction-about">Eduction</p></b>
+
+
+  <table>
+    <!-- ye first row ha heading wala -->
+    <tr>
+      <th>Level</th>
+      <th>
+        School&Collage
+     </th>
+      <th>Total Marks</th>
+      <th>obtaind marks</th>
+      <th>year</th>
+    </tr>
+  <!-- ye secound row ha  -->
   <tr>
-    <th>Level</th>
-    <th>
-      School&Collage
-   </th>
-    <th>Total Marks</th>
-    <th>obtaind marks</th>
-    <th>year</th>
+    <td>SSC(metric)</td>
+    <td>Iqra children Academy High School</td>
+    <td>1100</td>
+    <td>800</td>
+    <td>2019</td>
   </tr>
-<!-- ye secound row ha  -->
-<tr>
-  <td>SSC(metric)</td>
-  <td>Iqra children Academy High School</td>
-  <td>1100</td>
-  <td>800</td>
-  <td>2019</td>
-</tr>
-
-<!-- ye therd row ha  -->
-<tr>
-  <td>HSSC</td>
-  <td>Peshawer public Collage and Warsak Road Peshawer</td>
-  <td>1100</td>
-  <td>825</td>
-  <td>2021</td>
-</tr>
-<!-- ye fourth row ha -->
-<tr>
-  <td>DIT</td>
-  <td>Excel Learn Academy</td>
-  <td>1200</td>
-  <td>1100</td>
-  <td>2022</td>
-</tr>
-<tr>
-  <td>BS</td>
-  <td>Universty of Agriculter Peshawer</td>
-  <td>4GPA</td>
-  <td>3.5GPA</td>
-  <td>2026</td>
-</tr>
-
-</table> <hr>
+  
+  <!-- ye therd row ha  -->
+  <tr>
+    <td>HSSC</td>
+    <td>Peshawer public Collage and Warsak Road Peshawer</td>
+    <td>1100</td>
+    <td>825</td>
+    <td>2021</td>
+  </tr>
+  <!-- ye fourth row ha -->
+  <tr>
+    <td>DIT</td>
+    <td>Excel Learn Academy</td>
+    <td>1200</td>
+    <td>1100</td>
+    <td>2022</td>
+  </tr>
+  <tr>
+    <td>BS</td>
+    <td>Universty of Agriculter Peshawer</td>
+    <td>4GPA</td>
+    <td>3.5GPA</td>
+    <td>2026</td>
+  </tr>
+  
+  </table>
+    
+ <hr>
 
 <h1>
   ADDRESS
@@ -138,7 +148,7 @@ currently studying BS information tecnology </P> <hr>
 
 </footer>
 
-  
+</div>
 
  
 </body>
