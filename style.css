@@ -1,8 +1,9 @@
 body{
-    background-image: url(./../image/home-page.jpg);
+    background-image: url(./home-page.jpg);
 }
 *{
     color: aliceblue;
+    
 }
 
 
@@ -62,4 +63,5 @@ table, th, td{
   }
 .Eduction-about{
   font-size: 30px;
+  
 }
