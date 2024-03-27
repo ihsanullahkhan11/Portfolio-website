@@ -9,7 +9,7 @@ body{
 
 
 button{
-    color: black;
+    
     font-size: medium;
     box-shadow: 3px 2px 10px rgb(211, 192, 192);
     border-radius: 20px;
@@ -65,4 +65,10 @@ table, th, td{
 .Eduction-about{
   font-size: 30px;
   
+}
+.submit{
+  background: rgb(10, 52, 87);
+  width: 100px;
+  border-radius: 50px;
+
 }
